@@ -1,0 +1,6 @@
+applications:
+  - name: PrediktoInitialDataLoader
+    buildpack: java_buildpack
+    path: target/predikto_dataload-0.1.0.jar
+    services:
+      - postgres_predikto
